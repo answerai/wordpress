@@ -74,9 +74,10 @@ echo count($temp);
     <hr/>
     <div class="am-g">
       <div class="am-u-sm-12 am-u-md-4 am-u-md-push-8">
-		<div class="am-panel am-panel-default">
+		<!--<div class="am-panel am-panel-default">
           <div class="am-panel-bd">
             <div class="user-info">
+			
               <h3><span class="am-icon-wordpress"></span>Wordpress Theme <a>Simple</a> 2.0.0</h3>
               <p class="am-padding-left">Simple主题由<a href="http://www.loobo.me">Loobo主题笔记</a>与<a href="http://vinceok.com/">醉清风博客</a>共同开发而成</p>
               <p class="am-padding-left">请现在本页面设置完再返回博客查看效果</p>
@@ -86,7 +87,7 @@ echo count($temp);
 		      <img src="<?php bloginfo('template_url')?>/images/pay.png" width="300px" height="300px">
             </div>
           </div>
-        </div>
+        </div>-->
 		
 <!-- 		 <div class="am-panel am-panel-default">
           <div class="am-panel-bd">
