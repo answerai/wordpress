@@ -1,0 +1,47 @@
+Zap changelog
+
+= Version 1.7 =
+* Fixed menu covering the content
+* Fixed issue with too long theme name increasing the menu height
+* Moved google maps script
+
+= Version 1.6 =
+* Fixed plugin territory functions
+* Prefixed script enqueues/functions
+* Use post_class filter for post templates
+* Changed text domain to zap-lite
+* Removed some images
+* Removed social links from customizer
+* Moved featured content slider to customizer
+
+= Version 1.5 =
+* Removed taxonomy template
+* Improved archive page template
+
+= Version 1.4 =
+* Fixed max width for content images
+* Fixed non-printable characters
+* Fixed text domains
+* Moved social/share icons to plugin
+* Added breadcrumb translations
+* Updated TGM
+
+= Version 1.3 =
+* Fixed theme tags
+* Escaped some variables/settings
+* Enqueued html5.js the proper way
+* Used core favicon implementation
+* Prefixed functions
+* Removed "plugin territory" functions
+
+= Version 1.2 =
+* Removed commented code
+
+= Version 1.1 =
+* Fixed image alt attributes
+* Excluded HTML of translatable strings
+* Unminified JS
+* Prefixed sidebar registration
+
+= Version 1.0 =
+* Initial release
