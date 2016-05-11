@@ -41,7 +41,7 @@
 <!-- banner -->
 <div class="banner" style="background: url(<?php echo $options['banner'];?>);">
 	<!-- 菜单按钮 -->
-	<div class="menu menuicon hidden-xs">
+	<div class="menu menuicon hidden-xs" style="display:none;">
 		<i class="fa fa-bars"></i>
 	</div>
 	<!-- header -->
