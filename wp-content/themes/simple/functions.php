@@ -428,4 +428,9 @@ function custom_login() {
 	echo '<script src="' . get_bloginfo('template_directory') . '/custom_login/custom_login.js"></script>'; 
 }   
 add_action('login_head', 'custom_login');
+
+function custom_loginlogo_url($url) {
+	return'/'; //在此输入你需要链接到的URL地址
+}
+add_filter( 'login_headerurl', 'custom_loginlogo_url');
 ?>

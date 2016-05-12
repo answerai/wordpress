@@ -21,6 +21,7 @@
 		echo '<link rel="shortcut icon" href="'.get_bloginfo('template_url').'/images/favicon.ico">';
 	}
 	?>
+    <link rel="icon" type="image/gif" href="http://zeming.oss-cn-shenzhen.aliyuncs.com/wordpress/simple/animated_favicon.gif" >
 
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/css/font-awesome.min.css">  

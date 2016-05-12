@@ -39,7 +39,7 @@ login
     border-radius:8px;   
 }   
 #login h1{
-    margin:20px auto 0;
+    margin:20px auto 4px;
     width:100px;
     height: 100px;
 } 
