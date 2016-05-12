@@ -146,7 +146,7 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 					<p><?php
 						printf(
 							/* translators: %s: URL to the development post of the new feature */
-							__( 'Generated images now load up to 50&#37; faster with no noticeable quality loss. <a href="%s">It&#8217;s really cool</a>.' ),
+							 'Generated images now load up to 50&#37; faster with no noticeable quality loss. <a href="%s">It&#8217;s really cool</a>.' ,
 							'https://make.wordpress.org/core/2016/03/12/performance-improvements-for-images-in-wordpress-4-5/'
 						);
 					?></p>
