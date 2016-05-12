@@ -501,6 +501,7 @@ article-detail
 	line-height: 1.8em;
 	background: #fff;
 	box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 6px 6px 6px 6px;
 }
 .articleContent .title{
 	text-align:center;
@@ -552,7 +553,7 @@ article-detail
 }
 .articleCon{
 	/*padding-bottom:30px;*/
-	border-bottom:1px solid #e8e8e8;;
+	border-bottom:1px solid #e8e8e8;
 }
 .articleTagsBox{
 	margin:30px 0;
@@ -811,5 +812,8 @@ media query
 	}
 	.copyright{
 		padding: 20px 0;
+	}
+	.articleCon{
+		padding-left: 10px;
 	}
 }
