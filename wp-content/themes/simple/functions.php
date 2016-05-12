@@ -429,8 +429,9 @@ function custom_login() {
 }   
 add_action('login_head', 'custom_login');
 
-function custom_loginlogo_url($url) {
-	return'/'; //在此输入你需要链接到的URL地址
-}
-add_filter( 'login_headerurl', 'custom_loginlogo_url');
+#后台头像的URL和TITLE
+add_filter('login_headerurl', create_function(false,"return get_bloginfo( 'siteurl' );"));
+add_filter('login_headertitle', create_function(false,"return get_bloginfo( 'description' );"));
+#END
+
 ?>
