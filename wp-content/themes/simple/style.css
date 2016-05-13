@@ -725,7 +725,7 @@ media query
 		display:none;
 	}
 	.articleFooter{
-		padding:5px 10px;
+		padding:5px 5px;
 	}
 	.main-footer{
 		margin-top: 10px;
@@ -756,7 +756,7 @@ media query
 	}
 	.logoTheme h3,
 	.articleThumb,
-	.articleStatu li:nth-child(1),
+	/**.articleStatu li:nth-child(1),**/
 	.articleStatu li:nth-child(3),
 	.copyright span:nth-child(2){
 		display: none;
@@ -774,6 +774,12 @@ media query
         #ds-thread #ds-reset .ds-post-button {
     		right: 26px !important;
 	}
+	.articleStatu li{
+		margin-right: 5px !important;
+	}
+	.btn-readmore{
+		padding: 8px 15px;
+	}
 }
 /*
 手机
@@ -783,9 +789,9 @@ media query
 		padding:15px 5px;
 	}
 	.secTitleBar ul li{
-		margin:0 10px 0 0;
+		margin:0 8px 0 0;
 	}
-	.secTitleBar ul li:nth-child(2){
+	.secTitleBar ul li:nth-child(4){
 		display:none;
 	}
 	.main-footer .col-md-3:nth-child(2),
@@ -836,6 +842,7 @@ media query
 #ds-thread #ds-reset .ds-post-button {
     border-radius: 4px 4px 4px 4px !important;
     top:20px !important;
+    width: 120px !important;
 }
 #ds-thread #ds-reset .ds-toolbar-buttons{
     top: 25px !important;
