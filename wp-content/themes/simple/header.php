@@ -21,11 +21,24 @@
 		echo '<link rel="shortcut icon" href="'.get_bloginfo('template_url').'/images/favicon.ico">';
 	}
 	?>
-    <link rel="icon" type="image/gif" href="http://zeming.oss-cn-shenzhen.aliyuncs.com/wordpress/simple/animated_favicon.gif" >
 
+    	<?php
+    		echo '<link rel="icon" href="'.get_bloginfo('template_url').'/images/animated_favicon.gif">';
+    	?>
+    
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/css/font-awesome.min.css">  
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>"/>
+
+    <!-- hermit音乐播放器插件start --> 
+    <!--<link rel="stylesheet" id="hermit-css" href="/wp-content/plugins/hermit/assets/css/2.3.2/hermit.css?ver=4.5.2" type="text/css" media="all">
+       <script type="text/javascript">
+	  /* <![CDATA[ */
+	  var hermit = {"url":"\/wp-content\/plugins\/hermit\/assets\/swf\/","ajax_url":"\/wp-admin\/admin-		ajax.php","text_tips":"\u70b9\u51fb\u64ad\u653e\u6216\u6682\u505c","remain_time":"10","debug":"0","version":"2.3.2","album_source":"0"};
+	  /* ]]> */
+       </script>
+       <script type="text/javascript" src="/wp-content/plugins/hermit/assets/js/2.3.2/hermit.js?ver=2.3.2"></script>-->
+    <!-- hermit音乐播放器插件end --> 
 	
 	
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,6 +49,7 @@
 	<![endif]-->
 	<meta name="keywords" content="<?php echo $options['keywords']; ?>" />
 	<meta name="description" content="<?php echo $options['description']; ?>" />
+    
 </head>
 <body>
 
@@ -59,8 +73,8 @@
 						<?php endif ;?>
 					</div>
 					<div class="logoTheme">
-						<h1><?php if ($options['headerh1']):?><?php echo $options['headerh1'];?><?php else :?>专注于web开发<?php endif;?></h1>
-						<h3 style="display:none;"><?php if ($options['headerh3']):?><?php echo $options['headerh3'];?><?php else :?>我们不是代码的搬运工，我们只生产代码<?php endif;?></h3>
+						<h1><?php if ($options['headerh1']):?><?php echo $options['headerh1'];?><?php else :?><?php endif;?></h1>
+						<h3 style="display:none;"><?php if ($options['headerh3']):?><?php echo $options['headerh3'];?><?php else :?><?php endif;?></h3>
 					</div>
 				</div>				
 			</div>

@@ -103,7 +103,6 @@
                 <div class="copyright">
                     <span>Copyright &copy; <a href="<?php bloginfo('url');?>"><?php echo $options['footer']; ?></a>&nbsp;&nbsp;</span>
                     <span><?php echo $options['beian']; ?></span>
-                    <!--<span class="hidden-xs">Theme by <a href="http://www.loobo.me">Loobo主题笔记</a> & <a href="http://vinceok.com">醉清风博客</a></span>-->
                     <span class="hidden-xs">加载用时：</span><span><?php timer_stop(1); ?>s</span>
                 </div>
             </div>
