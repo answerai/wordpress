@@ -657,6 +657,9 @@ media query
 	.toptext{
 		display: none;
 	}
+        #ds-thread #ds-reset .ds-post-button {
+    		right: 26px !important;
+	}
 }
 /*大于我文章宽度的桌面显示器（横屏的Ipad也在内）*/
 @media only screen and (min-width: 961px) {
@@ -666,13 +669,18 @@ media query
 	.menubox ul{
 		margin-top:60px;
 	}
+	#ds-thread #ds-reset .ds-post-button {
+    		right: 26px !important;
+	}
 }
 @media (min-width: 768px) and (max-width: 960px) {
 	.articleFeed p{
 		font-size:14px;
 		line-height:1.6em;
 	}
-	
+	#ds-thread #ds-reset .ds-post-button {
+    		right: 19px !important;
+	}
 }
 @media only screen and (max-width: 767px) {
 	.container{
@@ -763,6 +771,9 @@ media query
 	.error404{
 		background: url('images/m404.jpg') no-repeat center center;
 	}
+        #ds-thread #ds-reset .ds-post-button {
+    		right: 26px !important;
+	}
 }
 /*
 手机
@@ -816,4 +827,52 @@ media query
 	.articleCon{
 		padding-left: 10px;
 	}
+        #ds-thread #ds-reset .ds-post-button {
+    		right: 6px !important;
+	}
 }
+
+/************** 多说评论框样式  *************/
+#ds-thread #ds-reset .ds-post-button {
+    border-radius: 4px 4px 4px 4px !important;
+    top:20px !important;
+}
+#ds-thread #ds-reset .ds-toolbar-buttons{
+    top: 25px !important;
+}
+#ds-thread #ds-reset .ds-post-options{
+    display:none !important;
+}
+#ds-thread #ds-reset .ds-post-options .ds-sync{
+    display:none !important;
+}
+#ds-thread #ds-reset .ds-powered-by{
+    margin-top: 50px !important;
+}
+#ds-thread #ds-reset .ds-powered-by a{
+    display:none !important; 	
+}
+#ds-thread #ds-reset .ds-textarea-wrapper textarea, #ds-thread #ds-reset .ds-textarea-wrapper .ds-hidden-text {
+    border: none !important;
+    border-radius: 3px !important;
+    background: #eee !important;
+    margin-left: 5px !important;
+}
+#ds-thread #ds-reset .ds-textarea-wrapper textarea{
+   width: 96% !important;
+   height: 96px !important;
+}
+#ds-thread #ds-reset .ds-post-button, #ds-thread #ds-reset .ds-textarea-wrapper textarea{
+   font-family: "Microsoft Yahei"!important;
+}
+#ds-thread #ds-reset .ds-textarea-wrapper{
+    border: none !important;
+}
+#ds-thread.ds-narrow #ds-reset .ds-post-options{
+    margin-top:10px !important;
+    display:none !important;
+}
+#ds-thread #ds-reset .ds-replybox .ds-avatar{
+    margin: 0 0 0 4px !important;
+}
+/************** 多说评论框样式END  *************/
