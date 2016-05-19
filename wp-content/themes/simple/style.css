@@ -18,7 +18,7 @@ html, body{
 	background: #f1f1f1;
 	position: relative;
 	overflow-x:hidden;
-	background:url(http://zeming.oss-cn-shenzhen.aliyuncs.com/wordpress/simple/bg_body.jpg);
+	background:url(http://oss.zeming.me/wordpress/simple/bg_body.jpg);
 }
 a,
 input[type="button"],input[type="submit"]{
